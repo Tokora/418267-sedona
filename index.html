@@ -10,10 +10,10 @@
         <a href="#"><img class="logo-header" src="http://placehold.it/150x100" alt="Седона"></a>
         <nav class="site-navigation">
           <ul>
-            <li><a href="#" class="main-nav">Информация111</a></li>
-            <li><a href="#" class="main-nav">Фото и видео</a></li>
-            <li><a href="#" class="main-nav">Карта штата</a></li>
-            <li><a href="#" class="main-nav">Гостиницы</a></li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Карта штата</a></li>
+            <li><a href="#">Гостиницы</a></li>
           </ul>
         </nav>
         </header>
@@ -102,25 +102,15 @@
         </div>
 
         <div class="registration">
-          <form action="#" method="get" id="registration">
-            <label>
-            Дата заезда:
-            <input type="date" name="calendar-arrival" value="2016-04-24"
-    max="2016-04-01" min="2017-05-01">
-            </label>
-            <label>
-            Дата выезда:
-            <input type="date" name="calendar-departure" value="2016-07-04"
-    max="2016-07-01" min="2017-06-01">
-            </label>
-            <label>
-            Взрослые:
-            <input type="number" value="2"/>
-            </label>
-            <label>
-            Дети:
-            <input type="number" value="0"/>
-            </label>
+          <form action="#" method="get" id="registration" size="100">
+            <label for="calendar-arrival">Дата заезда:</label>
+            <input type="date" id="calendar-arrival" value="2016-04-24">
+            <label for="calendar-departure">Дата выезда:</label>
+            <input type="date" id="calendar-departure" value="2016-07-04">
+            <label for="adult">Взрослые:</label>
+            <input type="number" value="2" id="adult">
+            <label for="children">Дети:</label>
+            <input type="number" value="0" id="children">
             <input type="submit" value="Найти">
           </form>
         </div>
@@ -129,10 +119,10 @@
           <img src="http://placehold.it/150x100" alt="Карта Седоны">
         </div>
       </article>
+    </section>
     </main>
 <!--       Тут начинается футер -->
-    <footer class="main-footer">
-      <div class="container">
+    <footer class="main-footer container">
         <div class="footer-visit">
           <h3 class="heading-black">#VISITSEDONA</h3>
         </div>
@@ -141,12 +131,9 @@
           <a class="social-btn" href="#">Фейсбук</a>
           <a class="social-btn" href="#">Ютуб</a>
         </div>
-        <div>
           <a href="https://htmlacademy.ru/intensive/htmlcss">
             <img src="http://placehold.it/150x100" alt="htmlacademy">
           </a>
-        </div>
-      </div>
     </footer>
   </body>
 </html>
