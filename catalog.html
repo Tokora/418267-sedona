@@ -7,19 +7,21 @@
   <body>
 <!--Тут начинается хедер-->
     <header class="main-header container">
-      <img class="logo-header" src="http://placehold.it/150x100" alt="Седона">
+      <a href="#">
+       <img class="logo-header" src="http://placehold.it/150x100" alt="Седона">
+      </a>
         <nav class="site-navigation">
           <ul>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
             <li><a href="#">Карта штата</a></li>
-            <li><a href="#">Гостиницы</a></li>
+            <li><a class="current-page" href="#">Гостиницы</a></li>
           </ul>
         </nav>
     </header> 
 <!--    Тут начинается основное содержание страницы-->
     <main class="container">
-      <article class="form-2">
+      <article class="find-housing">
         <form action="#" method="get">
           <fieldset>
             <legend>Инфраструктура:</legend>
@@ -46,18 +48,18 @@
               </label>
           </fieldset>
           <fieldset>
-            <legend>Стоимость в сутки:</legend>
-            <p class="range">от 0 до 3000</p>
+            <label>
+              <legend>Стоимость в сутки:</legend>
+              <p class="range">от 0 до 3000</p>
+            </label>
             <input type="range" min="0" max="3000" step="1" value="2800">
             <input type="submit" value="Показать">
           </fieldset>
         </form>
       </article>
       <article class="sorting">
-        <div>
           <h3 class="heading-black">Найдено: 3</h3>
-        </div>
-        <div>
+        <div class="sorting-types">
           <p>Сортировка:</p>
           <ul>
             <li>
@@ -71,7 +73,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="sorting-buttons">
           <button name="up">Вверх</button>
           <button name="down">Вниз</button>
         </div>
@@ -83,7 +85,8 @@
           </figure>
           <div>
             <h2 class="heading-black">Amara Resort & Spa</h2>
-            <p class="text-black">Гостиница <span class="price">от 3500 р.</span></p>
+            <span class="accom-type">Гостиница</span> 
+            <span class="price">от 3500 р.</span>
             <a href="#" class="btn-read" >Подробнее</a>
             <a href="#" class="btn-book" >Забронировать</a>
           </div>
@@ -99,7 +102,8 @@
           </figure>
           <div>
             <h2 class="heading-black">Desert Qualin Inn</h2>
-            <p class="text-black">Мотель <span class="price">от 2000 р.</span></p>
+            <span class="accom-type">Мотель</span> 
+            <span class="price">от 2000 р.</span>
             <a href="#" class="btn-read" >Подробнее</a>
             <a href="#" class="btn-book" >Забронировать</a>
           </div>
@@ -115,7 +119,8 @@
           </figure>
           <div>
             <h2 class="heading-black">Villas at Poco Diablo</h2>
-            <p class="text-black">Апартаменты <span class="price">от 4000 р.</span></p>
+            <span class="accom-type">Апартаменты</span> 
+            <span class="price">от 4000 р.</span>
             <a href="#" class="btn-read" >Подробнее</a>
             <a href="#" class="btn-book" >Забронировать</a>
           </div>
@@ -127,22 +132,21 @@
       </article>
     </main>
 <!--       Тут начинается футер -->
-    <footer class="main-footer">
-      <div class="container">
+    <footer class="main-footer container">
         <div class="footer-visit">
-          <h3 class="heading-black">#VISITSEDONA</h3>
+          <p>#VISITSEDONA</p>
         </div>
         <div class="footer-social">
           <a class="social-btn" href="#">Твиттер</a>
           <a class="social-btn" href="#">Фейсбук</a>
           <a class="social-btn" href="#">Ютуб</a>
         </div>
-        <div>
+        <div class="footer-academy">
+          <p>website by</p>
           <a href="https://htmlacademy.ru/intensive/htmlcss">
             <img src="http://placehold.it/150x100" alt="htmlacademy">
           </a>
         </div>
-      </div>
     </footer>
   </body>
 </html>
