@@ -1,0 +1,44 @@
+body {
+  background-color: #f2f2f2;
+  font-size: 11px;
+  color: 5c5c5c;
+  font-weight: normal;
+  font-family: PT Sans;
+}
+
+.container {
+  width: 1200px;
+  background-color: #ffffff;
+}
+
+.heading-black {
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+ 
+/*
+.heading-white {
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+*/
+
+.text-black {
+  font-size: 11px;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  text-transform: uppercase;
+  
+}
+
+/*
+.text-white {
+  font-size: 11px;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: uppercase; 
+}*/
