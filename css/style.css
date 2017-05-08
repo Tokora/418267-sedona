@@ -1,9 +1,10 @@
 body {
   background-color: #f2f2f2;
   font-size: 11px;
+  line-height: normal;
   color: 5c5c5c;
   font-weight: normal;
-  font-family: PT Sans;
+  font-family: "PT Sans", "sans-serif";
 }
 
 .container {
@@ -13,6 +14,7 @@ body {
 
 .heading-black {
   font-size: 21px;
+  line-height: normal;
   color: rgb(0, 0, 0);
   font-weight: bold;
   text-transform: uppercase;
@@ -29,6 +31,7 @@ body {
 
 .text-black {
   font-size: 11px;
+  line-height: normal;
   color: rgb(0, 0, 0);
   font-weight: normal;
   text-transform: uppercase;
