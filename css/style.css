@@ -5,12 +5,141 @@ body {
   color: 5c5c5c;
   font-weight: normal;
   font-family: "PT Sans", "sans-serif";
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .container {
   width: 1200px;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
+.main-header {
+  width: 1200px; 
+  height: 56px;
+  background-color: #ffffff;
+}
+
+.commerce {
+  width: 1200px; 
+  height: 508px;
+}
+
+.selling-text {
+  width: 1200px; 
+  height: 218px;
+  background-color: #ff9933;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descript-city {
+  width: 1200px; 
+  height: 256px;
+  background-color: #81b3d2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.advant-city-1 {
+  width: 1200px; 
+  height: 330px;
+  background-color: #ffff66;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.advant-city-2 {
+  width: 1200px; 
+  height: 256px;
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.open-form {
+  width: 1200px; 
+  height: 290px;
+  background-color: #ffff66;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-city {
+  width: 1200px; 
+  height: 472px;
+}
+
+.main-footer {
+  width: 1200px; 
+  height: 122px;
+  background-color: #ffffff !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Тут начинаются классы страницы каталога*/
+
+.find-housing {
+  width: 1200px; 
+  height: 218px;
+  background-color: #cccccc;
+}
+
+.find-housing form {
+  display: flex;
+  flex-direction: row;
+}
+
+.sorting {
+  width: 1200px; 
+  height: 86px;
+  background-color: #99ffcc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.all-accommodation {
+  display: flex;
+  flex-direction: column;
+}
+
+.accommodation {
+  width: 1200px; 
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.accommodation:nth-child(1) {
+  background-color: #ffff00;
+}
+
+.accommodation:nth-child(2) {
+  background-color: #ff99ff;
+}
+
+.accommodation:nth-child(3) {
+  background-color: #66ff66;
+}
+
+
+/*Тут начинаются общие классы, в основном текста*/
 
 .heading-black {
   font-size: 21px;
@@ -20,6 +149,7 @@ body {
   text-transform: uppercase;
 }
  
+
 /*
 .heading-white {
   font-size: 21px;
@@ -28,6 +158,7 @@ body {
   text-transform: uppercase;
 }
 */
+
 
 .text-black {
   font-size: 11px;
